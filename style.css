@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #CE8D39;
+}
+body {
+    background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Assurez-vous que le corps prend toute la hauteur de la vue */
+    margin: 0; /* Supprime les marges par défaut du corps */
+}
+.w-95{
+    width: 95%;
+}
+.w-90{
+    width: 90%;
+}
+.h-50px{
+    height: 50px;
+}
+.w-40{
+    width: 40%;
+}
+.top-25{
+    top: 25%;
+}
+.top-55{
+    top: 55%;
+}
+.top-15{
+    top: 15%
+}
+.top-65{
+    top: 65%
+}
+.top-85{
+    top: 85%
+}
+.top-145{
+    top: 145%
+}
+
+.bottom-10{
+    bottom: 10%;
+}
+.bg-op{
+    background: rgba(69, 61, 61, 0.51);
+}
+.bg-text{
+    background: rgb(69, 61, 61);
+}
+.ft{
+    font-size: 12px;
+}
+
+@media only screen and  (max-width: 375px) {
+    
+    .presentation{
+        top: 70%;
+    }
+    .top-55{
+        top: 240%;
+    }
+
+    body {
+        background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 450vh;
+        margin: 0;
+    }
+  }
+@media only screen and (min-width: 376px) and (max-width: 430px) {
+    .presentation{
+        top: 55%;
+    }
+    .top-55{
+        top: 200%;
+    }
+
+    body {
+        background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 380vh;
+        margin: 0;
+    }
+  }
+/* Mobile Portrait */
+@media only screen and (min-width: 431px) and (max-width: 480px) {
+    .presentation{
+        top: 55%;
+    }
+    .top-55{
+        top: 160%;
+    }
+
+    body {
+        background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 280vh;
+        margin: 0;
+    }
+}
+  
+  /* Mobile Landscape */
+
+  
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    .presentation{
+        top: 55%;
+    }
+
+    body {
+        background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 480vh;
+        margin: 0;
+    }
+  }
+  /* Tablet Portrait */
+  @media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .fombc{
+        top: 65%!important;
+    }
+    .top-55{
+        top: 80%;
+    }
+
+    body {
+        background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 135vh;
+        margin: 0;
+    }
+  }
+  /* Tablet Landscape */
+  @media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    .presentation{
+        top: 50%;
+    }
+    .top-55{
+        top: 110%;
+    }
+
+    body {
+        background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 185vh;
+        margin: 0;
+    }
+  }
+  
+  /* Ordinateur de bureau */
+  @media only screen and (min-width: 1280px) {
+    .presentation{
+        top: 50%;
+    }
+    .top-55{
+        top: 95%;
+    }
+
+    body {
+        background-image: url('assets/img/breaking-bad-pc-wallpaper-4k.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 150vh;
+        margin: 0;
+    }
+  }
+  
+  /* Écran 2K et au-delà */
+  @media only screen and (min-width: 2048px) {
+
+  }
